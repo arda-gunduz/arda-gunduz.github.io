@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import '@fontsource/roboto';
 import "../styles/global.css";
 ---
 <!-- test -->
@@ -13,9 +14,9 @@ import "../styles/global.css";
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
-	<body>
+	<body class="bg-green-950">
 		<Header />
-		<main>
+		<main class="text-white">
 			<slot />
 		</main>
 		<Footer />
