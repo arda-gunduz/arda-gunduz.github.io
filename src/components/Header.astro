@@ -5,12 +5,11 @@ import { SITE_TITLE } from "../consts";
 
 <header>
 <nav
-	class="flex items-center justify-between bg-green-950 font-bold text-white"
+	class="w-full flex fixed items-center bg-green-950 font-bold text-white border-b-5"
 >
 	<h2><a class="px-2 py-4" href="/">{SITE_TITLE}</a></h2>
 	<div
-		class="internal-links"
-		style="margin-left: auto; display: flex; gap: 1em;"
+		class="ml-auto flex gap-4 "
 	>
 	</div>
 	<HeaderLink
@@ -36,19 +35,3 @@ import { SITE_TITLE } from "../consts";
   <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"> </svg>
 </header>
 
-<style>
-
-  nav a.active {
-    text-decoration: none;
-    border-bottom-color: var(--accent);
-  }
-  .social-links,
-  .social-links a {
-    display: flex;
-  }
-  @media (max-width: 720px) {
-    .social-links {
-      display: none;
-    }
-  }
-</style>
