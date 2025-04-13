@@ -2,7 +2,7 @@
 title: 'Identité visuelle & produits — UGC Miam'
 description: 'Créer une identité visuelle pour UGC Miam'
 pubDate: 'Jun 17 2024'
-heroImage: '/blog-bar.png'
+heroImage: '/blog-miam.png
 ---
 # 🍬 UGC Miam
 
