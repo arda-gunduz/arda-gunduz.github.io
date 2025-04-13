@@ -2,7 +2,7 @@
 title: 'Doodle Euro 2024'
 description: 'Réalisation du Doodle Euro 2024'
 pubDate: 'Jun 2 2024'
-heroImage: '/blog-bar.png'
+heroImage: '/blog-doodle.png'
 ---
 
 # ⚽ Google Doodle – Euro 2024
